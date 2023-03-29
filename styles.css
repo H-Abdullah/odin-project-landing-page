@@ -1,0 +1,269 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: 1px solid red;
+}
+
+.header-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.nav-links {
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 75px 0;
+ 
+    gap: 30px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100%;
+    max-width: 50%;
+    gap: 10px;
+}
+
+.hero-text > h1 {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    max-width: 50%;
+    flex-grow: 10;
+    background-color: slategray;
+}
+
+.hero-image {
+    color: #F9FAF8;
+    font-size: 7px;
+}
+
+.first-content-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.first-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    padding-bottom: 75px;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.first-content-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.image-placeholder {
+    display: flex;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
+}
+
+.image-text {
+    display: flex;
+    text-align: center;
+}
+
+.second-content-body {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+.second-content-wrapper {
+    display: flex;
+    width: 980px;
+}
+.second-content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.quotes {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    width: 700px;
+    padding-top: 140px;
+}
+
+.quote-texts {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-texts > h6 {
+    text-align: end;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.quote-author {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.third-content-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.third-content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 980px;
+    margin: 70px 50px;
+}
+
+.third-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.join-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+    gap: 150px;
+}
+
+.join-us-text {
+    display: flex;
+}
+
+.join-us-text > p1 {
+    color: white;
+}
+
+.join-us > button {
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    flex-grow: 1;
+    padding: 30px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+.hero-text > p1 {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 25px;
+}
+
+span {
+    font-weight: bolder;
+}
