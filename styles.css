@@ -4,7 +4,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    border: 1px solid red;
 }
 
 .header-body {
@@ -40,7 +39,6 @@ body {
     justify-content: space-between;
     align-items: stretch;
     padding: 75px 0;
- 
     gap: 30px;
 }
 
@@ -67,12 +65,18 @@ body {
     min-height: 100%;
     max-width: 50%;
     flex-grow: 10;
+    border-radius: 10%;
+
     background-color: slategray;
 }
 
 .hero-image {
     color: #F9FAF8;
     font-size: 7px;
+}
+
+.hero-image > img {
+    border-radius: 10%;
 }
 
 .first-content-body {
@@ -103,11 +107,19 @@ body {
     gap: 40px;
 }
 
+.first-image > img,
+.second-image > img, 
+.third-image > img, 
+.fourth-image > img, 
+.fifth-image > img {
+    border-radius: 10%;
+}
 
 .first-image,
 .second-image,
 .third-image,
-.fourth-image {
+.fourth-image,
+.fifth-image {
     display: flex;
     flex: 1;
     align-items: center;
@@ -260,8 +272,8 @@ button {
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
-    width: 90px;
-    height: 25px;
+    width: 100px;
+    height: 40px;
 }
 
 span {
